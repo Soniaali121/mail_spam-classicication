@@ -62,3 +62,37 @@ Built using a **Multinomial Naive Bayes** classifier, it is trained on a dataset
        [ Performance Metrics ] ------> (Accuracy, Precision, Recall, F1)
 ```
 ---
+##⚙️ Machine Learning Pipeline
+###1.Load Dataset
+*import pandas as pd
+
+# Load processed tokenized email dataset
+*spam_df = pd.read_csv("data/emails.csv")
+
+---
+###2. Feature Selection
+# Separate frequency features from the label column
+**X = spam_df.iloc[:, 1:-1]
+**y = spam_df["Prediction"]
+
+---
+###3. Train-Test Split
+from sklearn.model_selection import train_test_split
+
+# Split data keeping reproducibility
+*X_train, X_test, y_train, y_test = train_test_split(
+    *X, y, test_size=0.2, random_state=42
+*)
+
+---
+###4. Model Training
+from sklearn.naive_bayes import MultinomialNB
+
+# Fit model on text frequencies
+**model = MultinomialNB()
+**model.fit(X_train, y_train)
+
+---
+
+##5. Prediction
+
