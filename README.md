@@ -163,7 +163,12 @@ Bash
 3.Run the script:
    Bash
    python app.py
-## 👩‍💻 Author & Connect
+
+
+
+
+
+  ## 👩‍💻 Author & Connect
 
 <p align="center">
   <strong>Sonia Ali</strong> <br />
