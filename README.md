@@ -44,5 +44,5 @@ Built using a **Multinomial Naive Bayes** classifier, it is trained on a dataset
 
 ## 🏗️ System Architecture
 
-```
+
 
