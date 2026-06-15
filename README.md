@@ -163,10 +163,29 @@ Bash
 3.Run the script:
    Bash
    python app.py
-👩‍💻 Author
-Sonia Ali
-Give a ⭐ if you found this project helpful!
+## 👩‍💻 Author & Connect
 
-### 💡 Tips for Final Touches:
-1. Replace `YOUR_LINKEDIN_URL_HERE` at the bottom with your actual LinkedIn profile link.
-2. Replace `your-username` in the GitHub clone URL and profile link with your actual GitHub username.
+<p align="center">
+  <strong>Sonia Ali</strong> <br />
+  <span>Machine Learning & Data Science Engineer</span>
+</p>
+
+<p align="center">
+  <a href="YOUR_LINKEDIN_URL_HERE" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
+  </a>
+  <a href="https://github.com/your-username" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>Refining email security through intelligent, lightweight machine learning algorithms.</sub>
+</p>
+
+---
+
+<p align="center">
+  <strong>Show Your Support ⭐</strong> <br />
+  If you found this repository useful, please consider leaving a star to help others discover it!
+</p>
