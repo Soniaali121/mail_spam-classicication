@@ -43,6 +43,22 @@ Built using a **Multinomial Naive Bayes** classifier, it is trained on a dataset
 ---
 
 ## 🏗️ System Architecture
-
-
-
+```text
+       [ Raw Email Dataset ]
+                 │
+                 ▼
+    [ Data Preprocessing Pipeline ] -> (Word Frequency Matrix Extraction)
+                 │
+                 ▼
+       [ Train-Test Split ] --------> (80% Train / 20% Test)
+                 │
+                 ▼
+   [ Multinomial Naive Bayes Model ]
+                 │
+                 ▼
+        [ Prediction Engine ] -------> (Classifies as Spam or Ham)
+                 │
+                 ▼
+       [ Performance Metrics ] ------> (Accuracy, Precision, Recall, F1)
+```
+---
