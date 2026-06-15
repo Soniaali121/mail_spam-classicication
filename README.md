@@ -44,7 +44,8 @@ Built using a **Multinomial Naive Bayes** classifier, it is trained on a dataset
 
 ## 🏗️ System Architecture
 
-```text
+```
+ text
        [ Raw Email Dataset ]
                  │
                  ▼
@@ -61,6 +62,8 @@ Built using a **Multinomial Naive Bayes** classifier, it is trained on a dataset
                  │
                  ▼
        [ Performance Metrics ] ------> (Accuracy, Precision, Recall, F1)
+
+
 
 ##⚙️ Machine Learning Pipeline
 import pandas as pd
